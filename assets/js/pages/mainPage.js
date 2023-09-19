@@ -1,5 +1,1 @@
-(function ($) {
-    $(document).ready(function(){
-        console.log('main page file');
-    });
-})(jQuery);
+console.log('main page file');

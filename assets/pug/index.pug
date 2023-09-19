@@ -7,7 +7,7 @@ block variables
       {title: "Главная", href: 'index.html', active: false},
       {title: "Test breadcrumbs", href: '', active: true},
     ]
-  - var mailIcon = {name: 'mail', selector:'icon'}
+  - var commIcon = {name: 'eye', selector:'icon'}
   
 
 block content 
@@ -21,22 +21,20 @@ block content
           a(href="https://bvi.isvek.ru/ustanovka-plagina/javascript/", target="_blank", rel="noopener noreferrer") https://bvi.isvek.ru/ustanovka-plagina/javascript/
       
       div.my-3
-        h4.mb-1 Чем отличается от оригинального плагина
+        h4.mb-1 Чем отличается от оригинального плагина:
         ul.dots
-          li добавлены валидные куки
-          li обновлены стили
-          li некоторые ошибки в коде оригинала исправлены
-          li решение протестированно и готово к использованию, список протестированных фреймворков,cms в ридми.
-          li есть готовые решения облегчающие жизни при работе с плагином.
+          li ✅ добавлены валидные куки
+          li ✅ обновлены стили
+          li ✅ некоторые ошибки в коде оригинала исправлены
       
       div.my-3 
         h4.mb-1 TODO:
         ul.dots
-          li нативный js в файле getBvi.js
+          li ✅ нативный js в файле getBvi.js
           li переписать хранение состояние с cookie на localstorage
 
       div.my-3 
-        h5.mb-4 
+        h5.mb-2 
           | Необязательно после интеграции верстки в cms/framework обновлять классы у тегов в компоненте чтобы добавить исключение bvi-no-styles.
           <br/>
           | Достаточно указать в массиве arrayOfSelectors элемент который нужно исключить.
@@ -47,13 +45,4 @@ block content
           div.indexPage-block 
             p применяются стили
             img.indexPage-block-styled(src="../build/img/stock/stockImg4.jpg", alt="Alt text")
-    
-    div.indexPageContainer
-      ul.my-2
-        li 👋 Hi, I'm @mishadawg 
-          a(href="https://github.com/mishadawg", target="_blank", rel="noopener noreferrer") https://github.com/mishadawg
-        li 🌱 I'm currently learning Javascript,React.js,Vue.js,PHP.
-        li 
-          | 📫 You can mail me if you want to 
-          a(href="mailto:misha40401@yandex.ru") misha40401@yandex.ru
   script(src="../build/js/pages/mainPage.js")
