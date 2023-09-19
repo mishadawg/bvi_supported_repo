@@ -1,11 +1,11 @@
 # Восстановленный плагин bvi 
-Исходный код и логика - https://github.com/veks/button-visually-impaired-javascript
+Исходный код и логика - https://github.com/veks/button-visually-impaired-javascript.
 Периодически сюда буду добавляться правки.
 Плагин подготовлен для интеграции, некоторые ошибки оригинальной репы исправлены.
 
 Протестирован: 
-✅1С-Битрикс, 
-✅vue.js.
+- ✅1С-Битрикс, 
+- ✅vue.js.
 
 ## Подключение
 
@@ -22,6 +22,7 @@ link("global/helpers/bvi.css")
 link("global/helpers/bviCustom.scss")
 
 Тег head по итогу должен выглядеть примерно так:
+```html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
@@ -36,6 +37,7 @@ link("global/helpers/bviCustom.scss")
     <!-- Файл в котором инициализируем и даем настройки для плагина -->
     <script src="./../build/js/components/getBvi.js"></script>
 </head>
+```
 
 ## Документацию
 ```
