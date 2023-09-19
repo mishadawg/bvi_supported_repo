@@ -1,9 +1,4 @@
 .bvi-active{
-    // баг(сток стилей) с глазом раскрытия панели (!)
-    .bvi-body a.bvi-link.bvi-show::after{
-        opacity: 0;
-    }
-
     // общие стили обводки и бэкграунда
     .header .container,
     .footer .container,

@@ -1,6 +1,9 @@
 /*!
  * Button visually impaired v1.0.0 (https://bvi.isvek.ru/)
  */
+ .bvi-active .bvi-body a.bvi-link.bvi-show::after {
+  opacity: 0;
+}
  .bvi-body *:not(.bvi-no-styles)::before,
  .bvi-body *:not(.bvi-no-styles)::after,
  .bvi-body *:hover:not(.bvi-no-styles):before,
