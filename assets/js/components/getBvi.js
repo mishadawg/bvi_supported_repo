@@ -47,7 +47,7 @@ $(document).ready(function () {
   // Перечисление элементов,которым нужно добавить исключение в стилях применяемых плагином bvi
   // добавить .bvi-no-styles(оставляет оригинальные стили элемента).
   let arrayOfSelectors = [
-    '.header__logo-item-container',
+    '.indexPage-block-nostyle',
   ];
 
   // Подвязываемся к изменениям боди

@@ -5,8 +5,9 @@
     }
 
     // общие стили обводки и бэкграунда
-    header,
-    footer{
+    .header .container,
+    .footer .container,
+    .indexPageContainer{
         border: 1px solid;
     }
 }
