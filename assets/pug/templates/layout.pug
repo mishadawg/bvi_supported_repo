@@ -14,11 +14,6 @@ html(lang="ru")
     .page__header
       include ../components/sections/header
     .page__content
-      if breadcrumbs
-        .container
-          +breadcrumb(breadcrumbs)
-          if title
-            p.title-first=title 
       block content
     .page__footer
       include ../components/sections/footer 
