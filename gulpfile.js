@@ -29,7 +29,7 @@ let sourceFolder = local + 'assets/';
 let project = {
     build: {
         root: buildFolder,
-        html: html,
+        html: local,
         css: buildFolder + 'css/',
         fonts: buildFolder + 'fonts/',
         js: buildFolder + 'js/',
@@ -75,7 +75,7 @@ let project = {
 // Local Server
 gulp.task('browser-sync', function () {
     browserSync({
-        startPath: '/html',
+        startPath: '/',
         server: {
             baseDir: local
         },
