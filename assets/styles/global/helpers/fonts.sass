@@ -1,0 +1,15 @@
+@mixin font($f-name, $f-style, $f-weight, $f-url,$f-realName)
+  @font-face
+    font-family: $f-name
+    font-style: $f-style
+    font-weight: $f-weight
+    src: url("../fonts/#{$f-url}/#{$f-realName}.ttf") format('ttf'),url("../fonts/#{$f-url}/#{$f-realName}.eot") format('eot'),url("../fonts/#{$f-url}/#{$f-realName}.woff") format('woff'),url("../fonts/#{$f-url}/#{$f-realName}.woff2") format('woff2')
+
+// Fonts
+@include font('Inter', normal, 300, 'Inter_300','Inter-Light')
+@include font('Inter', normal, 400, 'Inter_400','Inter-Regular')
+@include font('Inter', normal, 500, 'Inter_500','Inter-Medium')
+@include font('Inter', normal, 600, 'Inter_600','Inter-SemiBold')
+@include font('Inter', normal, 700, 'Inter_700','Inter-Bold')
+@include font('Inter', normal, 800, 'Inter_800','Inter-ExtraBold')
+@include font('Inter', normal, 900, 'Inter_900','Inter-Black')

@@ -1,0 +1,12 @@
+{
+	"data": {
+		"menu": {
+			"items": [
+				{
+					"link": "test.html",
+					"text": "Тест"
+				}
+			]
+		}
+	}
+}
